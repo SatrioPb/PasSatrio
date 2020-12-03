@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/nama"
+        android:layout_gravity="center"
+        android:layout_width="298dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="530dp"
+        android:hint="Nama"/>
+    <EditText
+        android:inputType="textPassword"
+        android:id="@+id/pass"
+        android:layout_marginTop="10dp"
+        android:layout_width="298dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:hint="password"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Masuk"
+        android:background="@drawable/background"
+        android:textColor="#ffff"/>
+
+    <TextView
+        android:id="@+id/dft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Tidak punya akun?Daftar"
+        android:layout_marginTop="20sp"/>
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="352dp"
+        android:layout_height="318dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-600dp"
+        android:src="@drawable/preimer" />
+
+    <TextView
+        android:id="@+id/masuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="-450dp"
+        android:text="Masuk"
+        android:textSize="30dp"
+
+        android:textStyle="bold"/>
+
+
+
+</LinearLayout>
